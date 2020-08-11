@@ -1,6 +1,64 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    clear: both;
+}
+
 .presentation {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: black;
     color: white;
+}
+
+.org {
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+}
+
+#nav-left
+{
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    white-space: nowrap;
+}
+
+#nav-right
+{
+    float: right;
+    margin-top: 2%;
+    margin-right: 4%;
+    white-space: nowrap;
+}
+
+.navitem {
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    padding: 6%;
+}
+
+.content {
+    width: 42%;
+    margin-left: 8%;
+    margin-top: 10%;
+    font-family: "Century Gothic";
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    padding: 1%;
+}
+
+.blank {
+    height: 35px;
+    width: 100%;
+    background-color: transparent;
 }
